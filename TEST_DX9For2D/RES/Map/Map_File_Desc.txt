@@ -1,0 +1,104 @@
+General:
+--------
+A map-file is a binary file and contains a map in tiles.
+the file descripes each tile and the position in the file is the row and the column
+on the screen
+
+<<<<<<< HEAD
+Header:
+-------
+Size		=	16 byte
+Game Version	=	 2 byte [BYTE] 2x (1:Major,2:Minor)
+Map Version	=	 2 byte [BYTE] 2x (1:Major,2:Minor)
+Map identifier	= 	 4 byte [CHAR] 4x (TMAP)
+=======
+For each indexed entry exists a single file with the index contents, 
+i.e. for the names of the regions and warzones.
+
+The map file itselfs contains the starting conditions of a map
+but the same file type is to used save game stats
+
+Header:
+-------
+Size		=	16 byte
+Map identifier	= 	 4 byte [CHAR] 4x (TMAP)
+Game Version	=	 2 byte [BYTE] 2x (1:Major,2:Minor)
+Map Version	=	 2 byte [BYTE] 2x (1:Major,2:Minor)
+>>>>>>> origin/master
+Tile width	=	 2 byte [WORD] (max MAX_WORD)
+Map Height	=	 2 byte [WORD] (max MAX_WORD)
+Reserved	=	 4 byte [DWORD] not jet used
+
+Tile:
+-----
+Size		=	16 byte
+<<<<<<< HEAD
+Gelände typ	=	 1 byte [BYTE] (index for Tilesprite background)
+Ressource typ	=	 1 byte [BYTE] (index for Ressource on tile 0=no ressource)
+Aufbau typ	=	 1 byte [BYTE] (index for tile modification {Trainline, Fort})
+Inital Faction	=	 1 byte [BYTE] (index for Faction that has this tile at start)
+Current faction	=	 1 byte [BYTE] (index for current facrion that holds the tile)
+Conquer faction	=	 1 byte [BYTE] (index for faction that has conquered the tile)
+Regionname	=	 1 byte [BYTE] (index to name for the Region of the tile {stored in seperated file})
+Warzonename	=	 1 byte [BYTE] (index to name for the warzone {is be conquerd if no enemy troop is in the warzone})
+Flags		=	 2 byte [BYTE] (signalflags)
+Reserved1	=	 2 byte [WORD] 
+Reserved2	=	 4 byte [DWORD]
+
+Signalflags:
+------------
+0x 0000 0000	=	no signals
+0x 0000 0001	=	no passing (for mountains)
+0x 0000 0010	=	conquered 
+=======
+Gelände typ	=	 1 byte [BYTE] (index for Tilesprite background {names to index stored in seperated file})
+Initial faction	=	 1 byte [BYTE] (index for Faction that has this tile at start)
+Current faction	=	 1 byte [BYTE] (index for current faction that holds the tile)
+Conquer faction	=	 1 byte [BYTE] (index for faction that has conquered the tile)
+Regionname	=	 1 byte [BYTE] (index to name for the Region of the tile {stored in seperated file})
+Warzonename	=	 1 byte [BYTE] (index to name for the warzone {is be conquerd if no enemy troop is in the warzone}{stored in seperated file})
+Flags		=	 2 byte [WORD] (signalflags)
+Ressource typ	=	 1 byte [BYTE] (index for Ressource on tile 0=no ressource {names to index stored in seperated file})
+Res level	=	 1 byte [BYTE] (value for ressource modification level)
+Modify typ	=	 1 byte [BYTE] (flag for tile modification {Trainline, Fort})
+Reserved1	=	 1 byte [BYTE] 
+Reserved2	=	 4 byte [DWORD]
+
+For Citiy tiles the single parts will be treat a little bit other
+of course initial, current and conquer faction also region and warzone name and of course the flags remain the same meaning
+
+Modificationflags:
+------------------
+00. 0x 00 00	=	no modifcation
+01. 0x 00 01	=	road (level from current research state)
+02. 0x 00 02	=	rail (level from current research state)
+03. 0x 00 04	=	trench (level from current research state)
+04. 0x 00 08	=	fort (level from current research state)
+05. 0x 00 10	=	not used
+06. 0x 00 20	=	not used
+07. 0x 00 40	=	not used
+08. 0x 00 80	=	not used
+
+
+Signalflags:
+------------
+00. 0x 00 00	=	no signals
+01. 0x 00 01	=	no passing (for mountains)
+02. 0x 00 02	=	sea units can pass
+03. 0x 00 04	=	50% move cost
+04. 0x 00 08	=	100% move cost
+05. 0x 00 10	=	200% move cost
+06. 0x 00 20	=	not used
+07. 0x 00 40	=	not used
+08. 0x 00 80	=	not used
+09. 0x 01 00	=	not used
+10. 0x 02 00	=	not used
+11. 0x 04 00	=	not used
+12. 0x 08 00	=	not used
+13. 0x 10 00	=	not used
+14. 0x 20 00	=	not used
+15. 0x 40 00	=	ressource scouted
+16. 0x 80 00	=	conquered by enmey nation
+
+>>>>>>> origin/master
+

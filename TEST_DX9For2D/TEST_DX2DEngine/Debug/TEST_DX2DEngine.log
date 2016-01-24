@@ -1,0 +1,94 @@
+<<<<<<< HEAD
+﻿Der Buildvorgang wurde am 08.07.2015 21:33:29 gestartet.
+     1>Projekt "C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX2DEngine\TEST_DX2DEngine.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt MyGame.cpp
+         MyGame.cpp
+         c:\prog\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+       Link:
+         C:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10d.lib d3d9.lib d3dx9d.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.lib" /MACHINE:X86 Debug\Color.obj
+=======
+﻿Der Buildvorgang wurde am 13.07.2015 00:28:23 gestartet.
+     1>Projekt "F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX2DEngine\TEST_DX2DEngine.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Entity.cpp FileHeaderReader.cpp GameMap.cpp Mouse.cpp MyGame.cpp winMain.cpp
+         winMain.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         MyGame.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Mouse.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>f:\programm\github.local\d3d_2d_engine\test_dx9for2d\test_dx2dengine\mouse.cpp(113): warning C4800: "int": Variable wird auf booleschen Wert ("True" oder "False") gesetzt (Auswirkungen auf Leistungsverhalten möglich)
+     1>f:\programm\github.local\d3d_2d_engine\test_dx9for2d\test_dx2dengine\mouse.cpp(224): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>f:\programm\github.local\d3d_2d_engine\test_dx9for2d\test_dx2dengine\mouse.cpp(230): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>f:\programm\github.local\d3d_2d_engine\test_dx9for2d\test_dx2dengine\mouse.cpp(236): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+     1>f:\programm\github.local\d3d_2d_engine\test_dx9for2d\test_dx2dengine\mouse.cpp(242): warning C4244: "=": Konvertierung von "int" in "float", möglicher Datenverlust
+         GameMap.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         FileHeaderReader.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Code wird generiert...
+         Kompilieren...
+         Entity.cpp
+         f:\programmieren\sdk directx 9\microsoft directx sdk (june 2010)\include\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+         Code wird generiert...
+       Link:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.exe" /INCREMENTAL /NOLOGO d3d10.lib d3dx10d.lib d3d9.lib d3dx9.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.lib" /MACHINE:X86 Debug\Bounds.obj
+         Debug\Color.obj
+>>>>>>> origin/master
+         Debug\Direct3D.obj
+         Debug\DX2D.obj
+         Debug\DXFont.obj
+         Debug\Engine.obj
+         Debug\Entity.obj
+<<<<<<< HEAD
+=======
+         Debug\FileHeaderReader.obj
+>>>>>>> origin/master
+         Debug\FileReader.obj
+         Debug\FileTypedef.obj
+         Debug\FileWriter.obj
+         Debug\FpsCounter.obj
+         Debug\FrameTimer.obj
+         Debug\Game.obj
+         Debug\GameMap.obj
+<<<<<<< HEAD
+         Debug\Input.obj
+         Debug\Keyboard.obj
+         Debug\Mouse.obj
+         Debug\MouseCursorManager.obj
+         Debug\MyGame.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\TextureManager.obj
+         Debug\winMain.obj
+         TEST_DX2DEngine.vcxproj -> C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.exe
+     1>Die Erstellung des Projekts "C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX2DEngine\TEST_DX2DEngine.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.37
+=======
+         Debug\IndexFileReader.obj
+         Debug\Input.obj
+         Debug\Keyboard.obj
+         Debug\MapTile.obj
+         Debug\Mouse.obj
+         Debug\MouseCursorManager.obj
+         Debug\MyGame.obj
+         Debug\Ressource.obj
+         Debug\RessourceData.obj
+         Debug\Sprite.obj
+         Debug\SpriteBatch.obj
+         Debug\Terrain.obj
+         Debug\TerrainData.obj
+         Debug\TextureManager.obj
+         Debug\Version.obj
+         Debug\winMain.obj
+         TEST_DX2DEngine.vcxproj -> F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX2DEngine.exe
+     1>Die Erstellung des Projekts "F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX2DEngine\TEST_DX2DEngine.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:05.56
+>>>>>>> origin/master

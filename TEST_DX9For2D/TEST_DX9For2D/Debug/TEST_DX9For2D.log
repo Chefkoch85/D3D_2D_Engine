@@ -1,0 +1,20 @@
+﻿Der Buildvorgang wurde am 05.07.2015 13:44:42 gestartet.
+     1>Projekt "F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX9For2D\TEST_DX9For2D.vcxproj" auf Knoten "2", Rebuild Ziel(e).
+     1>ClCompile:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt CreateDevice.cpp FpsCounter.cpp FrameTimer.cpp TextInput.cpp
+         TextInput.cpp
+         FrameTimer.cpp
+         FpsCounter.cpp
+         CreateDevice.cpp
+         Code wird generiert...
+       Link:
+         D:\Prog\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX9For2D.exe" /INCREMENTAL /NOLOGO d3d9.lib d3d10.lib d3dx10d.lib d3d9.lib d3dx9.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX9For2D.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX9For2D.lib" /MACHINE:X86 Debug\CreateDevice.obj
+         Debug\FpsCounter.obj
+         Debug\FrameTimer.obj
+         Debug\TextInput.obj
+         TEST_DX9For2D.vcxproj -> F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\Debug\TEST_DX9For2D.exe
+     1>Die Erstellung des Projekts "F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\TEST_DX9For2D\TEST_DX9For2D.vcxproj" ist abgeschlossen, Rebuild Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.31

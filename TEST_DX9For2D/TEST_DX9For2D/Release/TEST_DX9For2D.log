@@ -1,0 +1,19 @@
+﻿Der Buildvorgang wurde am 18.03.2015 09:52:39 gestartet.
+     1>Projekt "C:\PROG\PROGRAMM\TEST_DX9For2D\TEST_DX9For2D\TEST_DX9For2D.vcxproj" auf Knoten "2", Build Ziel(e).
+     1>ClCompile:
+         C:\Prog\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt CreateDevice.cpp TextInput.cpp
+         CreateDevice.cpp
+         TextInput.cpp
+       Link:
+         C:\Prog\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\PROG\PROGRAMM\TEST_DX9For2D\Release\TEST_DX9For2D.exe" /INCREMENTAL:NO /NOLOGO d3d10.lib d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib d3d10.lib d3dx10d.lib d3d9.lib d3dx9d.lib dxerr.lib dxguid.lib dinput8.lib winmm.lib comctl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\PROG\PROGRAMM\TEST_DX9For2D\Release\TEST_DX9For2D.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\PROG\PROGRAMM\TEST_DX9For2D\Release\TEST_DX9For2D.lib" /MACHINE:X86 /SAFESEH Release\CreateDevice.obj
+         Release\FpsCounter.obj
+         Release\FrameTimer.obj
+         Release\TextInput.obj
+         Code wird generiert.
+         Codegenerierung ist abgeschlossen.
+         TEST_DX9For2D.vcxproj -> C:\PROG\PROGRAMM\TEST_DX9For2D\Release\TEST_DX9For2D.exe
+     1>Die Erstellung des Projekts "C:\PROG\PROGRAMM\TEST_DX9For2D\TEST_DX9For2D\TEST_DX9For2D.vcxproj" ist abgeschlossen, Build Ziel(e).
+
+Build erfolgreich.
+
+Verstrichene Zeit 00:00:02.34

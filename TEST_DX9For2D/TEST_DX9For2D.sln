@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEST_DX9For2D", "TEST_DX9For2D\TEST_DX9For2D.vcxproj", "{4BC1A408-A3A4-49E8-81E0-E08CF7EA875A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TEST_DX2DEngine", "TEST_DX2DEngine\TEST_DX2DEngine.vcxproj", "{B511E2D2-F5DE-4F59-BB70-60D814E98B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BC1A408-A3A4-49E8-81E0-E08CF7EA875A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4BC1A408-A3A4-49E8-81E0-E08CF7EA875A}.Release|Win32.ActiveCfg = Release|Win32
+		{4BC1A408-A3A4-49E8-81E0-E08CF7EA875A}.Release|Win32.Build.0 = Release|Win32
+		{B511E2D2-F5DE-4F59-BB70-60D814E98B59}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B511E2D2-F5DE-4F59-BB70-60D814E98B59}.Debug|Win32.Build.0 = Debug|Win32
+		{B511E2D2-F5DE-4F59-BB70-60D814E98B59}.Release|Win32.ActiveCfg = Release|Win32
+		{B511E2D2-F5DE-4F59-BB70-60D814E98B59}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

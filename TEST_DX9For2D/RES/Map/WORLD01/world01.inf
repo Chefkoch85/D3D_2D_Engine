@@ -1,0 +1,22 @@
+// info file for world 1
+
+[FILE]
+// where to get Terain infos
+TERRAIN="..\RES\MAP\WORLD01\TERRAIN.INF"
+
+// where to get ressource infos
+RESSOURCE="..\RES\MAP\WORLD01\RESSOURCE.INF"
+
+// where to get region names
+REGION="..\RES\MAP\WORLD01\WORLD01.REGION.TMAP"
+
+// where to get warzone names
+WARZONE="..\RES\MAP\WORLD01\WORLD01.WARZONE.TMAP"
+
+// where to get map-data
+MAP="..\RES\MAP\WORLD01\WORLD01.TMAP"
+
+// what cursor shoud be used
+CURSOR="..\RES\MAP\WORLD01\CURSOR.PNG"
+
+[END]

@@ -1,0 +1,6 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
+<<<<<<< HEAD
+Debug|Win32|C:\PROG\PROGRAMM\Github.local\D3D_2D_Engine\TEST_DX9For2D\|
+=======
+Debug|Win32|F:\PROGRAMM\GitHub.local\D3D_2D_Engine\TEST_DX9For2D\|
+>>>>>>> origin/master

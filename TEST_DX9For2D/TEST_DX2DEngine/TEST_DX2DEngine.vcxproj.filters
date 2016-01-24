@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{08c9807b-0fc8-4298-ac66-ed6b75894ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header">
+      <UniqueIdentifier>{3b7602b2-c7f5-4478-8d17-35e35e6492c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source">
+      <UniqueIdentifier>{28c39529-a165-4094-a352-d1bdfbb70920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic">
+      <UniqueIdentifier>{1c8c84cc-6e3c-4a15-92f9-71a41fd6cad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Util">
+      <UniqueIdentifier>{98db8ad8-e71b-4631-a54e-9ec3b46fb2ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Input">
+      <UniqueIdentifier>{d2b64a24-3164-4dcd-beec-896dd7e0f79b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Graphic\Base">
+      <UniqueIdentifier>{cb183b80-fda5-4cd6-a777-adc1d624d54b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic">
+      <UniqueIdentifier>{93ad2bc6-7eaa-410f-9a64-2b546e7eef93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Graphic\Base">
+      <UniqueIdentifier>{66fe0a12-61d7-4aa1-8f86-7686b786f33c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Input">
+      <UniqueIdentifier>{2b99bbc6-6ceb-47e9-ac7a-cdcdcf27249f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Util">
+      <UniqueIdentifier>{2206ab6c-2317-4588-841a-0b791cb3c327}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Header\Output">
+      <UniqueIdentifier>{1956c6bc-282d-434d-845a-fb5814cf9c1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Source\Output">
+      <UniqueIdentifier>{09b6ed4a-b31e-4cb9-883b-06f03b19ced9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c3fe342a-28fc-46fc-85a5-bbc3092266c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Game\Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+<<<<<<< HEAD
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+=======
+    <Filter Include="Game\Quelldateien\Map">
+      <UniqueIdentifier>{18bb922c-ec82-48fb-9fd0-3a36aa6160df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Headerdateien\Map">
+      <UniqueIdentifier>{483cc21a-7016-48ae-84b7-1cb9abda96e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> origin/master
+    <ClCompile Include="Game.cpp">
+      <Filter>Engine\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFont.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteBatch.cpp">
+      <Filter>Engine\Source\Graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FpsCounter.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameTimer.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="MouseCursorManager.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D.cpp">
+      <Filter>Engine\Source\Graphic\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DX2D.cpp">
+      <Filter>Engine\Source\Graphic\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Color.cpp">
+      <Filter>Engine\Source\Graphic\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Engine\Source\Graphic\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="FileWriter.cpp">
+      <Filter>Engine\Source\Output</Filter>
+    </ClCompile>
+    <ClCompile Include="FileTypedef.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+<<<<<<< HEAD
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+=======
+    <ClCompile Include="Version.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MyGame.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MapTile.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMap.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="FileHeaderReader.cpp">
+      <Filter>Game\Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="IndexFileReader.cpp">
+      <Filter>Engine\Source\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainData.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="RessourceData.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Bounds.cpp">
+      <Filter>Engine\Source\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Ressource.cpp">
+      <Filter>Game\Quelldateien\Map</Filter>
+    </ClCompile>
+>>>>>>> origin/master
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyGame.h">
+      <Filter>Game\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Engine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Engine\Header\Graphic\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D.h">
+      <Filter>Engine\Header\Graphic\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DX2D.h">
+      <Filter>Engine\Header\Graphic\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Engine\Header\Graphic\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFont.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteBatch.h">
+      <Filter>Engine\Header\Graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FpsCounter.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTimer.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MouseCursorManager.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="FileWriter.h">
+      <Filter>Engine\Header\Output</Filter>
+    </ClInclude>
+    <ClInclude Include="FileTypedef.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+<<<<<<< HEAD
+    <ClInclude Include="GameMap.h">
+      <Filter>Game\Headerdateien</Filter>
+    </ClInclude>
+=======
+    <ClInclude Include="Version.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="MapTile.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMap.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="FileHeaderReader.h">
+      <Filter>Game\Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="IndexFileReader.h">
+      <Filter>Engine\Header\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainData.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="RessourceData.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Bounds.h">
+      <Filter>Engine\Header\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Ressource.h">
+      <Filter>Game\Headerdateien\Map</Filter>
+    </ClInclude>
+>>>>>>> origin/master
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+problem:
+	klammern bei 	.size vergessen
+			.size()

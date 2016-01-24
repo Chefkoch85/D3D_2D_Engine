@@ -1,0 +1,36 @@
+// paths to the tile graphics
+[GRAPHIC]
+0="..\RES\MAP\TILES\DUMMY.PNG"
+1="..\RES\MAP\TILES\GRASS1.PNG"
+2="..\RES\MAP\TILES\GRASS2.PNG"
+3="..\RES\MAP\TILES\FOREST.PNG"
+4="..\RES\MAP\TILES\SEA.PNG"
+5="..\RES\MAP\TILES\SAND.PNG"
+6="..\RES\MAP\TILES\MOUNTAIN.PNG"
+7="..\RES\MAP\TILES\HILL.PNG"
+8="..\RES\MAP\TILES\SWAMP.PNG"
+
+// names of the tile graphics shown in game
+[NAME]
+0="NONE"
+1="Grass"
+2="Grass"
+3="Forest"
+4="Sea"
+5="Sand"
+6="Mountain"
+7="Hill"
+8="Swamp"
+
+[FLAG]
+0="0"
+1="0"
+2="0"
+3="4"
+4="3"
+5="4"
+6="1"
+7="4"
+8="5"
+
+[END]
